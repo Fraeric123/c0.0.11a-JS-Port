@@ -6,7 +6,7 @@ export class ServerClient {
     }
 
     command(cmd, remaining, dataView, offset) {
-        // Zde se bude zpracovávat logika paketů podle protokolu c0.0.11a
+        
     }
 
     handleException(error) {
@@ -88,7 +88,7 @@ export class MinecraftServer {
     }
 
     tick() {
-        // 1. Zde bude tikat fyzika světa, generování blocků, timeouty hráčů atd.
+        
     }
 
     processIncomingData(connectionId, arrayBuffer) {
